@@ -1,0 +1,27 @@
+.Day {
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+    width: 10%;
+    border: 1px black solid;
+    border-radius: 8px;
+}
+
+.Day:hover {
+    border-color: #2e51cc;
+}
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.activeMonth {
+    background-color: white;
+}
+
+.otherMonth {
+    background-color: #cccccc;
+}

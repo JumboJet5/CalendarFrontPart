@@ -1,0 +1,27 @@
+.Calendar {
+    text-align: center;
+    /*width: 100%;*/
+    height: 100%;
+    /*border: 1px blue solid;*/
+}
+
+.Week {
+    align-self: center;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    /*border: 1px black solid;*/
+    /*padding: 16px;*/
+}
+
+.Month {
+    display: flex;
+    flex-direction: column;
+    height: 94%;
+    width: 96%;
+    justify-content: space-between;
+    padding: 2% 2% 2% 2%;
+    /*border: 1px red solid;*/
+}

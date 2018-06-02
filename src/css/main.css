@@ -1,0 +1,111 @@
+input[type=password], input[type=datetime-local], input[type=text] {
+    width: 220px;
+}
+
+.mapsInput {
+    width: 96%;
+}
+
+.map {
+    width: 450px;
+    height: 300px;
+    margin: 8px;
+}
+
+.mapsInput, textarea, button, input[type=datetime-local], input[type=password], input[type=text] {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white no-repeat 10px 10px;
+    padding: 6px 12px 6px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.mapsInput:focus, textarea:focus, input[type=datetime-local]:focus, input[type=password]:focus, input[type=text]:focus {
+    border: 2px solid #2e51cc;
+}
+
+textarea {
+    width: 350px;
+    resize: none;
+}
+
+button {
+    border-radius: 8px;
+}
+
+button:hover {
+    border: 2px solid #2e51cc;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.show, .hide, .bucket, .add, .save, .close, .edit, .check-mark {
+    padding: 16px;
+}
+
+.show, .hide, .bucket, .add, .save, .close, .edit, .check-mark .user {
+    border-color: transparent !important;
+    margin: 6px;
+    box-shadow: none !important;
+}
+
+.user {
+    border-color: transparent !important;
+    background: url('../img/Gentleman-icon (1).png') no-repeat center;
+    padding: 32px;
+    box-shadow: none !important;
+    margin: 8px;
+}
+
+.edit {
+    background: url('../img/Pencil-icon.png') no-repeat center center;
+}
+
+.add {
+    background: url('../img/Add-icon.png') no-repeat center center;
+}
+
+.close {
+    background: url('../img/Close-icon.png') no-repeat center center;
+}
+
+.show {
+    background: url('../img/Arrow-DowninCircle-icon.png') no-repeat center center;
+}
+
+.hide {
+    background: url('../img/Arrow-UpinCircle-icon.png') no-repeat center center;
+}
+
+.bucket {
+    background: url('../img/Bucket-icon.png') no-repeat center center;
+}
+
+.save {
+    background: url('../img/Disk-icon.png') no-repeat center center;
+}
+
+.check-mark {
+    background: url('../img/Yes-icon.png') no-repeat center center;
+}
+
+.outer {
+    text-align: center;
+}
+
+.inner {
+    margin: 8px;
+    display: inline-block;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.inline {
+    display: inline-block;
+    margin: 8px;
+}

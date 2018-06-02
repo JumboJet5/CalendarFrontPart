@@ -1,0 +1,7 @@
+.Page {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*border: 1px aqua solid;*/
+}

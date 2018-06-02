@@ -1,0 +1,21 @@
+.ToDoTask {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #254388;
+    border-radius: 8px;
+    /*border: 1px black solid;*/
+}
+
+.isDone {
+    color: rgb(0, 0, 0);
+}
+
+.isNotDone {
+    color: #ff0b40;
+}
+
+.for-text-div {
+    display: flex;
+    align-self: flex-end;
+}

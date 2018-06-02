@@ -1,0 +1,8 @@
+.RightPanel {
+    text-align: center;
+    height: 94.5vh;
+    width: 30%;
+    background-color: #85a6ff;
+    overflow: auto;
+    padding: 20px;
+}
